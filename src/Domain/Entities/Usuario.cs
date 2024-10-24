@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Enums;
 
 namespace Domain.Entities
 {
@@ -15,5 +16,10 @@ namespace Domain.Entities
         public int Id { get; set; }
         [Required]
         public string Name { get; set; } = string.Empty;
+        [Required]
+        public string Username { get; set; } = string.Empty;
+        [Required]
+        public string Password { get; set; } = string.Empty;
+        public Userrole Userrole { get; set; }
     }
 }

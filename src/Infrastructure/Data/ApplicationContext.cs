@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
+using Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data
@@ -15,8 +16,18 @@ namespace Infrastructure.Data
         public DbSet<Vendedor> Vendedores {  get; set; }
         public DbSet<Comprador> Compradores { get; set; }
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            modelBuilder.Entity<Usuario>()
+                .ToTable("Usuarios")
+                .HasDiscriminator<Userrole>("Userrole")
+                .HasValue<Comprador>(Userrole.Comprador)
+                .HasValue<Vendedor>(Userrole.Vendedor)
+                .HasValue<Sysadmin>(Userrole.Sysadmin);
+
+
             modelBuilder.Entity<Producto>(p =>
             {
                 //Relacion producto - vendedor, un producto tiene un vendedor pero un vendedor muchos productos

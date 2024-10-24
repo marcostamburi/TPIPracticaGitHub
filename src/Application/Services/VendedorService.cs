@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Application.Interfaces;
 using Application.Models.Request;
 using Domain.Entities;
+using Domain.Enums;
 using Domain.Exceptions;
 using Domain.Interfaces;
 
@@ -21,9 +22,7 @@ namespace Application.Services
 
         public Vendedor Add(CreateRequest request)
         {
-            var vendedor = new Vendedor();
-            vendedor.email = request.Email;
-            vendedor.Name = request.Name;
+            var vendedor = new Vendedor { Name = request.Name, Email = request.Email, Username = request.Username, Password = request.Password, /*Userrole = Userrole.Vendedor*/ };
 
             _vendedorRepository.Add(vendedor);
             return vendedor;
@@ -31,8 +30,10 @@ namespace Application.Services
         public void Update(int id, UpdateRequest request) 
         {
             var updatear = _vendedorRepository.GetById(id) ?? throw new NotFoundException($"No se encotro el id = {id}");
-            updatear.email = request.Email;
+            updatear.Email = request.Email;
             updatear.Name = request.Name;
+            updatear.Username = request.Username;
+            updatear.Password = request.Password;
             _vendedorRepository.Update(updatear);
         }
         public void Delete(int id)

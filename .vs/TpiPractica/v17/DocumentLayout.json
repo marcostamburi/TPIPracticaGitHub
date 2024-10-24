@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Facultad\\En curso\\Tpi de practica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD6F1DCC-1235-4CE3-91E5-7676A7A9338C}|src\\Web\\Web.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\web\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD6F1DCC-1235-4CE3-91E5-7676A7A9338C}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD6F1DCC-1235-4CE3-91E5-7676A7A9338C}|src\\Web\\Web.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\web\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD6F1DCC-1235-4CE3-91E5-7676A7A9338C}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\application\\services\\vendedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\vendedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\application\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\interfaces\\ivendedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interfaces\\ivendedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\application\\interfaces\\ivendedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\ivendedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7993E852-2336-4C31-9998-6EEDBD7BF182}|src\\Infrastructure\\Infrastructure.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\infrastructure\\data\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7993E852-2336-4C31-9998-6EEDBD7BF182}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\entities\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7993E852-2336-4C31-9998-6EEDBD7BF182}|src\\Infrastructure\\Infrastructure.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7993E852-2336-4C31-9998-6EEDBD7BF182}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\entities\\comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F03777B-07D3-4DE3-B302-CA7EDD76F3A9}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|c:\\facultad\\en curso\\tpi de practica\\src\\application\\interfaces\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C896B099-5279-4DB6-BA2E-4F9C98AB2EC9}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VendedorController.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Web\\Controllers\\VendedorController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\VendedorController.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Web\\Controllers\\VendedorController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\VendedorController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wEIAAAAsAAAA",
+              "DocumentIndex": 2,
+              "Title": "IProductoService.cs",
+              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Interfaces\\IProductoService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IProductoService.cs",
+              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Interfaces\\IProductoService.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\IProductoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:36:57.62Z",
+              "WhenOpened": "2024-10-24T16:28:02.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VendedorService.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Services\\VendedorService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\VendedorService.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Services\\VendedorService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\VendedorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Services\\ProductoService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\ProductoService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwEYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:01:44.898Z",
+              "WhenOpened": "2024-10-24T16:02:04.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "src\\Domain\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBUAAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Web\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Web\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "src\\Web\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswHYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:25:00.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IVendedorService.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Interfaces\\IVendedorService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IVendedorService.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Application\\Interfaces\\IVendedorService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IVendedorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:06:20.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IVendedorRepository.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Interfaces\\IVendedorRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IVendedorRepository.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Interfaces\\IVendedorRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\IVendedorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:52:23.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Interfaces\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IBaseRepository.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Interfaces\\IBaseRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:41:20.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Infrastructure\\Data\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\BaseRepository.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Infrastructure\\Data\\BaseRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\BaseRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:27:23.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Producto.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Producto.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Producto.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Producto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:02:57.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Vendedor.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Vendedor.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Vendedor.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Vendedor.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Vendedor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:02:01.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Infrastructure\\Data\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ApplicationContext.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Infrastructure\\Data\\ApplicationContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\ApplicationContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:08:27.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Comprador.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Comprador.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Comprador.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Comprador.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Comprador.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:01:26.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Facultad\\En curso\\Tpi de practica\\src\\Domain\\Entities\\Usuario.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Usuario.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:57:46.191Z",
+              "WhenOpened": "2024-10-24T15:52:33.072Z",
               "EditorCaption": ""
             }
           ]

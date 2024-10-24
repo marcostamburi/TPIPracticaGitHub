@@ -55,7 +55,7 @@ namespace Web.Controllers
             }
         }
         [HttpGet]
-        public List<Vendedor> GetAll()
+        public ICollection<Vendedor> GetAll()
         {
             return _service.GetAll();
         }

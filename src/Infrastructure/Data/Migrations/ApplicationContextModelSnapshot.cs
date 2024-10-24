@@ -17,25 +17,6 @@ namespace Infrastructure.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");
 
-            modelBuilder.Entity("Domain.Entities.Comprador", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("email")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Compradores");
-                });
-
             modelBuilder.Entity("Domain.Entities.Producto", b =>
                 {
                     b.Property<int>("Id")
@@ -64,7 +45,7 @@ namespace Infrastructure.Data.Migrations
                     b.ToTable("Productos");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Vendedor", b =>
+            modelBuilder.Entity("Domain.Entities.Usuario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,13 +55,59 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("email")
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Userrole")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Vendedores");
+                    b.ToTable("Usuarios", (string)null);
+
+                    b.HasDiscriminator<int>("Userrole");
+
+                    b.UseTphMappingStrategy();
+                });
+
+            modelBuilder.Entity("Domain.Entities.Comprador", b =>
+                {
+                    b.HasBaseType("Domain.Entities.Usuario");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasDiscriminator().HasValue(0);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Sysadmin", b =>
+                {
+                    b.HasBaseType("Domain.Entities.Usuario");
+
+                    b.HasDiscriminator().HasValue(2);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Vendedor", b =>
+                {
+                    b.HasBaseType("Domain.Entities.Usuario");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.ToTable("Usuarios", t =>
+                        {
+                            t.Property("Email")
+                                .HasColumnName("Vendedor_Email");
+                        });
+
+                    b.HasDiscriminator().HasValue(1);
                 });
 
             modelBuilder.Entity("Domain.Entities.Producto", b =>
